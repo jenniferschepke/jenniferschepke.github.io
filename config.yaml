@@ -1,5 +1,5 @@
 baseURL: https://eternity.bora.sh # todo: change site url.
-title: Jenn # todo: change site name.
+title: Jennifer Schepke # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
@@ -7,39 +7,42 @@ googleAnalytics: '' # todo: set your analytics id.
 params:
   image: /images/banner.png
   logo: logo.png # todo: add your custom logo to static/
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Jennifer Schepke is an artist and illustrator from Michigan # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
+  author: Jennifer Schepke # todo: set your full name.
   dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
       desktop:
         nature: 4
-        archive: 6
+        sketchbook: 6
         people: 2
         default: 3
       mobile:
         default: 2
-        archive: 3
+        sketchbook: 3
         people: 1
   socials:
     # todo: change these links.
-    - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:eternity@bora.sh'
+    - icon: 'x'
+      url: 'https://twitter.com/jenniferschepke'
       landing: true
-    - icon: 'fab fa-github fa-lg'
-      url: 'https://github.com/boratanrikulu/eternity'
+    - icon: 'rumble'
+      url: 'https://rumble.com/c/c-5377345'
       landing: true
-    - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.bora.sh/eternity'
-    - icon: 'fab fa-linkedin-in fa-lg'
-      url: 'https://linkedin.bora.sh/in/eternity'
+    - icon: 'kofi'
+      url: 'https://ko-fi.com/jenniferschepke/shop'
+      landing: true
+    - icon: 'tutanota'
+      url: 'mailto:jenniferschepke@tuta.com'
+      landing: true
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
-    - archive
-  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
-  disableWelcomePageBackground: false # disables the background image on the homepage
+    - about
+    - sketchbook
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: true # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
   disableRadius: false
   moveIt: false  # Moves Title and Meta info down, only visible when scroll.
@@ -49,7 +52,7 @@ markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
 
 taxonomies:
   tag: tags
@@ -62,15 +65,12 @@ menu:
     - name: work
       url: /work/
       weight: 1
-    - name: people
-      url: /tags/people/
-      weight: 2
-    - name: nature
-      url: /tags/nature/
-      weight: 3
-    - name: archive
-      url: /tags/archive/
-      weight: 4
-    - name: about
+    - name: about + contact
       url: /about/
-      weight: 5
+      weight: 2
+    - name: shop
+      url: https://ko-fi.com/jenniferschepke/shop/
+      weight: 3
+    - name: videos
+      url: https://www.tiktok.com/@jenniferschepke
+      weight: 4
