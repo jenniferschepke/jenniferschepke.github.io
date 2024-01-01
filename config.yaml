@@ -1,16 +1,16 @@
-baseURL: https://jenniferschepke.com # todo: change site url.
-title: Jennifer Schepke # todo: change site name.
+baseURL: https://jenniferschepke.github.io 
+title: Jennifer Schepke 
 defaultContentLanguage: 'en'
 theme: eternity
-googleAnalytics: '' # todo: set your analytics id.
+googleAnalytics: '' 
 
 params:
   image: /images/banner.png
-  logo: logo.png # todo: add your custom logo to static/
+  logo: logo.png 
   subtitle: Jennifer Schepke is an artist and illustrator from Michigan # todo: change default subtitle for your website.
-  copyright: All rights reserved. # todo: set your copyright type.
-  author: Jennifer Schepke # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
+  copyright: All rights reserved. 
+  author: Jennifer Schepke
+  dontShowSource: false 
   portfolio:
     columns:
       desktop:
@@ -23,7 +23,6 @@ params:
         sketchbook: 3
         people: 1
   socials:
-    # todo: change these links.
     - icon: 'x'
       url: 'https://twitter.com/jenniferschepke'
       landing: true
