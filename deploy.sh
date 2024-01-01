@@ -19,7 +19,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-git submodule update --init --recursive --depth=1
+# git submodule update --init --recursive --depth=1
 hugo --minify
 
 echo "Updating gh-pages branch"
