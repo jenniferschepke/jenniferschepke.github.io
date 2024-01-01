@@ -67,9 +67,9 @@
 }
 
 .enter>.button {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     height: 50px;
-    width: 170px;
+    width: 10px;
     opacity: 0.9 !important;
     font-size: 1.9em;
 }
@@ -90,16 +90,16 @@ nav.navbar {
     height: unset !important;
     margin-left: 2em;
     margin-right: 2em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .navbar-burger {
     color: #ffffff;
-    height: 6rem;
+    height: 7rem;
 }
 
 .menu {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .margin-bottom-50 {
@@ -107,7 +107,7 @@ nav.navbar {
 }
 
 div.logo {
-    height: 5rem;
+    height: 10rem;
 }
 
 img.logo {
@@ -142,7 +142,7 @@ a img {
 }
 
 .title-404 {
-    font-size: 6em;
+    font-size: 10em;
 }
 
 .subtitle-404 {
