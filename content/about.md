@@ -12,7 +12,7 @@ hideDate: true
 # Hello, my name is Jennifer
 ***It's nice to meet you!***
 
-- I am an artist and illustrator based in Detroit, Michigan.
+- I am an artist and illustrator from Michigan.
 
 - I graduated from Indiana Wesleyan University with a BS in Graphic Design and Illustration.
 
@@ -27,8 +27,6 @@ hideDate: true
 - Watching the sunset with someone you love
 
 I believe that God created a world with abundant beauty. My goal is to create art that depicts the beauty and joy of life, no matter the circumstance.
-
-###### *"Beauty is truth. The truer something is the more beautiful it is. The most beautiful things were made by God." Tucker Carlson*
 
 ---
 
